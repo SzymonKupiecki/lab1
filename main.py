@@ -11,7 +11,7 @@ def cylinder_area(r:float,h:float):
     Returns:
     float: pole powierzchni walca 
     """
-    if r < 0 or h < 0:
+    if r <= 0 or h <= 0:
         return None
     return 2*math.pi*r*r + 2*math.pi*r*h
 
